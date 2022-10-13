@@ -1,0 +1,21 @@
+.navigation {
+    background: ghostwhite;
+}
+
+.navigation__content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navigation__item {
+    padding: 0.5rem 1rem;
+    background: #eeeeee;
+    text-decoration: none;
+    color: #89949c;
+}
+
+.navigation__item--active {
+    background: #2ac8c2;
+    color: white;
+}
